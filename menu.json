@@ -1,20 +1,50 @@
 [
 	{
-	    "item": "Stackoverflow Burger",
-	    "cost": "$10.00",
-	    "description": "Juicy beef patty topped with cheddar cheese, lettuce, tomato and our special Stackoverflow sauce.",
+	    "item": "Spicy Crispy Chicken Sandwich",
+	    "cost": "$3.59",
+	    "description": "Designed and made completely from Scratch, one of our most popular items.",
 	    "image": "https://images.unsplash.com/photo-1568852709840-c5b5f5a5c9a5?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
 	},
 	{
-	    "item": "Stackoverflow Fries",
-	    "cost": "$5.00",
-	    "description": "Crispy golden fries served with our homemade Stackoverflow seasoning.",
+	    "item": "Stack OverFlow",
+	    "cost": "$3.99",
+	    "description": "An enormous beef burger inspired by the best forum ever.",
 	    "image": "https://images.unsplash.com/photo-1568852709840-c5b5f5a5c9a5?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
 	},
 	{
-	    "item": "Stackoverflow Shake",
-	    "cost": "$7.00",
-	    "description": "Thick and creamy shake made with real vanilla ice cream and topped with whipped cream.",
+	    "item": "Chicken Bytes",
+	    "cost": "$2.39",
+	    "description": "Boolean 2 byte sized chicken nuggets.",
+	    "image": "https://images.unsplash.com/photo-1568852709840-c5b5f5a5c9a5?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+	},
+	{
+	    "item": "Software Fries",
+	    "cost": "$1.79",
+	    "description": "Our world renowned soft and scrumptious fries.",
+	    "image": "https://images.unsplash.com/photo-1568852709840-c5b5f5a5c9a5?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+	},
+	{
+	    "item": "Vegetarian Burger",
+	    "cost": "$3.79",
+	    "description": "A quality option for all vegetarians, consisting of numerous vegetables and a patty made of Java beans.",
+	    "image": "https://images.unsplash.com/photo-1568852709840-c5b5f5a5c9a5?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+	},
+	{
+	    "item": "Homebrew-ed Coffee",
+	    "cost": "$2.59",
+	    "description": "Fresh coffee brewed directly from Homebrew.",
+	    "image": "https://images.unsplash.com/photo-1568852709840-c5b5f5a5c9a5?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+	},
+	{
+	    "item": "URL Grey Tea",
+	    "cost": "$1.99",
+	    "description": "Our in-house specialty tea.",
+	    "image": "https://images.unsplash.com/photo-1568852709840-c5b5f5a5c9a5?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+	},
+	{
+	    "item": "Fountain Drink",
+	    "cost": "$1.49",
+	    "description": "Your choice of our ice code sodas.",
 	    "image": "https://images.unsplash.com/photo-1568852709840-c5b5f5a5c9a5?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
 	}
     ]
