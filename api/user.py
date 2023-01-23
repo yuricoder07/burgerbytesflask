@@ -21,6 +21,10 @@ class UserAPI:
             name = body.get('name')
             if name is None or len(name) < 2:
                 return {'message': f'Name is missing, or is less than 2 characters'}, 210
+            # validate order
+            order = body.get('order')
+            if order is None or len(order) < 2:
+                return {'message': f'Order is missing, or is less than 2 characters'}, 210
             # validate uid
             uid = body.get('uid')
             if uid is None or len(uid) < 2:
@@ -30,7 +34,8 @@ class UserAPI:
             dob = body.get('dob')
 
             ''' #1: Key code block, setup USER OBJECT '''
-            uo = User(name=name, 
+            uo = User(name=name,
+                      order=order, 
                       uid=uid)
             
             ''' Additional garbage error checking '''
