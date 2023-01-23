@@ -1,0 +1,21 @@
+[
+	{
+	    "item": "Stackoverflow Burger",
+	    "cost": "$10.00",
+	    "description": "Juicy beef patty topped with cheddar cheese, lettuce, tomato and our special Stackoverflow sauce.",
+	    "image": "https://images.unsplash.com/photo-1568852709840-c5b5f5a5c9a5?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+	},
+	{
+	    "item": "Stackoverflow Fries",
+	    "cost": "$5.00",
+	    "description": "Crispy golden fries served with our homemade Stackoverflow seasoning.",
+	    "image": "https://images.unsplash.com/photo-1568852709840-c5b5f5a5c9a5?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+	},
+	{
+	    "item": "Stackoverflow Shake",
+	    "cost": "$7.00",
+	    "description": "Thick and creamy shake made with real vanilla ice cream and topped with whipped cream.",
+	    "image": "https://images.unsplash.com/photo-1568852709840-c5b5f5a5c9a5?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+	}
+    ]
+    
