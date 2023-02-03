@@ -222,9 +222,9 @@ def initUsers():
     u3 = User(name='Alexander Graham Bell', order='SpicyCrispyChickenSandwich', uid='lex', password='123lex')
     u4 = User(name='Eli Whitney', order='SoftwareFries', uid='whit', password='123whit')
     u5 = User(name='John Mortensen', order='VegetarianBurger', uid='jm1021', dob=date(1959, 10, 21))
-    u6 = User(name='Soham Kamat', order='Stack OverFlow', uid='soham', dob=date(1, 2, 3))
-
-    users = [u1, u2, u3, u4, u5, u6]
+    u6 = User(name='Yuri S', order='AmoungUs Burger', uid='yuri', dob=date(1, 2, 3))
+    u7 = User(name='Tanay P', order='AmoungUs Burger', uid='tanay', dob=date(1, 2, 3))
+    users = [u1, u2, u3, u4, u5, u6, u7]
 
     """Builds sample user/note(s) data"""
     for user in users:
