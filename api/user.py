@@ -21,10 +21,6 @@ class UserAPI:
             name = body.get('name')
             if name is None or len(name) < 2:
                 return {'message': f'Name is missing, or is less than 2 characters'}, 210
-            # validate order
-            order = body.get('order')
-            if order is None or len(order) < 2:
-                return {'message': f'Order is missing, or is less than 2 characters'}, 210
             # validate uid
             uid = body.get('uid')
             if uid is None or len(uid) < 2:
@@ -35,7 +31,6 @@ class UserAPI:
 
             ''' #1: Key code block, setup USER OBJECT '''
             uo = User(name=name,
-                      order=order, 
                       uid=uid)
             
             ''' Additional garbage error checking '''
@@ -43,12 +38,6 @@ class UserAPI:
             if password is not None:
                 uo.set_password(password)
             # convert to date type
-            if dob is not None:
-                try:
-                    uo.dob = datetime.strptime(dob, '%m-%d-%Y').date()
-                except:
-                    return {'message': f'Date of birth format error {dob}, must be mm-dd-yyyy'}, 210
-            
             ''' #2: Key Code block to add user to database '''
             # create user in database
             user = uo.create()
