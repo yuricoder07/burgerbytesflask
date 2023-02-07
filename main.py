@@ -13,10 +13,8 @@ from model.users import initUsers
 from api.covid import covid_api # Blueprint import api definition
 from api.joke import joke_api # Blueprint import api definition
 from api.user import user_api # Blueprint import api definition
-from api.menu import menu_api
-from api.cart import cart_api
-from api.item import item_api
-
+from api.search import search_api
+from api.users import users_api
 
 
 
@@ -32,10 +30,8 @@ app.register_blueprint(joke_api) # register api routes
 app.register_blueprint(covid_api) # register api routes
 app.register_blueprint(user_api) # register api routes
 app.register_blueprint(app_projects) # register app pages
-app.register_blueprint(menu_api)
-app.register_blueprint(cart_api)
-app.register_blueprint(item_api)
-
+app.register_blueprint(search_api)
+app.register_blueprint(users_api)
 
 @app.errorhandler(404)  # catch for URL not found
 def page_not_found(e):
