@@ -11,18 +11,7 @@ from model.users import initUsers
 
 # setup APIs
 from api.user import user_api # Blueprint import api definition
-<<<<<<< HEAD
-from api.search import search_api
-from api.users import users_api
-
-
-
-
-
-
-=======
 from api.item import item_api
->>>>>>> 312719134342955e94ddc4103d2cec980c46d3f6
 
 # setup App pages
 from projects.projects import app_projects # Blueprint directory import projects definition
@@ -30,13 +19,8 @@ from projects.projects import app_projects # Blueprint directory import projects
 # register URIs
 app.register_blueprint(user_api) # register api routes
 app.register_blueprint(app_projects) # register app pages
-<<<<<<< HEAD
-app.register_blueprint(search_api)
-app.register_blueprint(users_api)
-=======
 app.register_blueprint(item_api)
 
->>>>>>> 312719134342955e94ddc4103d2cec980c46d3f6
 
 @app.errorhandler(404)  # catch for URL not found
 def page_not_found(e):
