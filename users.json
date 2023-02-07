@@ -8,6 +8,32 @@
 	{
 	  "Username": "Tanay",
 	  "Password": "null",
-	  "UserID": "2"
+	  "UserID": "2",
+	  "Favorites": ""
+	},
+	{
+	  "Username": "Aniket",
+	  "Password": "null",
+	  "UserID": "3",
+	  "Favorites": ""
+	},
+	{
+	  "Username": "Soham",
+	  "Password": "null",
+	  "UserID": "4",
+	  "Favorites": ""
+	},
+	{
+	  "Username": "Jeff",
+	  "Password": "null",
+	  "UserID": "5",
+	  "Favorites": ""
+	},
+	{
+	  "Username": "Navbar",
+	  "Password": "null",
+	  "UserID": "6",
+	  "Favorites": ""
 	}
+	
 ]

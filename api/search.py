@@ -38,10 +38,7 @@ def searchItem(item):
           "ingredients": ingredients,
           "instructions": instructions
       }
-      with open("food.json", "a") as jsonfile:
-          result_list.append(x)
-          json.dump(x, jsonfile)
-
+      result_list.append(x)
   return result_list
 
 
