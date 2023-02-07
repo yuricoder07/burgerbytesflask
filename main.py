@@ -13,13 +13,6 @@ from model.users import initUsers
 from api.user import user_api # Blueprint import api definition
 from api.item import item_api
 
-
-
-
-
-
-
-
 # setup App pages
 from projects.projects import app_projects # Blueprint directory import projects definition
 
