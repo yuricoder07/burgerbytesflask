@@ -13,6 +13,7 @@ from model.users import initUsers
 from api.user import user_api # Blueprint import api definition
 from api.search import search_api
 from api.getusers import getusers_api
+from api.signup import signup_api
 
 
 # setup App pages
@@ -23,6 +24,7 @@ app.register_blueprint(user_api) # register api routes
 app.register_blueprint(app_projects) # register app pages
 app.register_blueprint(search_api)
 app.register_blueprint(getusers_api)
+app.register_blueprint(signup_api)
 
 
 @app.errorhandler(404)  # catch for URL not found
