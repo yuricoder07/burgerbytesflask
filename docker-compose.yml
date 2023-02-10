@@ -6,7 +6,8 @@ services:
                 ports:
                         - "8099:8080"
                 volumes:
-                        - persistent_volume:/app/volumes
+                        - ./volumes:/volumes
+                        - ./instance:/instance
                 restart: unless-stopped
 volumes:
   persistent_volume:
