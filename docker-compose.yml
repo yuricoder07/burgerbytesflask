@@ -1,18 +1,11 @@
 version: '3'
 services:
-        web_Recipies:
-                image: recipies_v1
+        web:
+                image: flask_port_v1
                 build: .
                 ports:
-                        - "8099:8080"
+                        - "8086:8086"
                 volumes:
                         - ./volumes:/volumes
                         - ./instance:/instance
                 restart: unless-stopped
-volumes:
-  persistent_volume:
-    driver: local
-    driver_opts:
-      o: bind
-      type: none
-      device: /home/ubuntu/burgerbytesflask/volumes
